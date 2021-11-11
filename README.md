@@ -24,7 +24,7 @@ Para unificar términos, es importante que sepas cómo se van a llamar los eleme
 
 ### Cómo saber si...
 
-#### Estoy en la sección para crear o editar un entrypoint
+#### Estoy en la sección correcta para crear o editar un entrypoint
 
 En la parte superior izquierda aparece en qué sección estás y tienes que ver el copy `Entrypoints`.
 
