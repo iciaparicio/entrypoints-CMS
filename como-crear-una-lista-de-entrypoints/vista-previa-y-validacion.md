@@ -17,10 +17,12 @@ Usa la opción ![](../.gitbook/assets/Add\_use\_case.png) para añadir audiencia
 
 Usa la opción ![](../.gitbook/assets/remove\_use\_case.png)para quitar una audiencia y por tanto no simular ese caso de uso.
 
-En este último paso haz clic en Save and p**ublish **para publicar la lista que acabas de configurar.
+En este último paso haz clic en Save and **Publish **para publicar la lista que acabas de configurar.
 
-También puedes hacer clic en Save para guardar los cambios y dejar la lista en modo borrador, en estado DRAFT. En ese momento puedes comenzar un test para poder ver cómo quedan los cambios antes de publicarlos e impactar a una masa amplia de usuarios.
+También puedes hacer clic en **Save** para guardar los cambios. En ese momento la lista pasa al estado **PAUSED** lo que te permite comenzar un test para poder ver cómo quedan los cambios antes de publicarlos e impactar a una masa amplia de usuarios.
 
 **¿Quieres saber más sobre le proceso de Test?** 👇🏼
 
-[#como-probar-un-contenido-antes-de-publicarlo](../como-hacer-un-test.md#como-probar-un-contenido-antes-de-publicarlo "mention")
+{% content-ref url="../como-hacer-un-test.md" %}
+[como-hacer-un-test.md](../como-hacer-un-test.md)
+{% endcontent-ref %}
