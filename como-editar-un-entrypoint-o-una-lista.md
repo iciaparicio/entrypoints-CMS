@@ -1,13 +1,13 @@
-# Cómo editar un entrypoint o una lista
+# Como editar um entrypoint ou uma lista
 
-Para editar un entrypoint o una lista de entrypoint tienes dos opciones:
+Para editar um entrypoint ou uma lista de entrypoint, há duas opções:
 
-1. **Usa el submenú del elemento**. Acerca el ratón al final de la fila del elemento y haz clic en ![](.gitbook/assets/icono\_submenu.png) y selecciona la opción **Editar**.
+1. **Use o submenu do elemento**. Aproxime o mouse ao final da linha do elemento, clique em ![](.gitbook/assets/icono_submenu.png) e selecione a opção **Editar**.
 
-![](.gitbook/assets/Editar\_submenu.png)
+![](.gitbook/assets/Editar_submenu.png)
 
-2\. **Haz clic en la fila del elemento**. También puedes hacer clic en cualquier punto del elemento que quieres editar, desde la vista general. Verás que esa fila cambia el color cuando pasar el ratón, y el puntero también cambia para que sepas que es clicable esa zona.
+2. **Clique na linha do elemento**. Também pode clicar em qualquer ponto do elemento que queira editar na visão geral. Note que essa linha muda de cor ao passar o mouse e que o cursor também muda, para que você saiba que essa área pode ser clicada.
 
-![](.gitbook/assets/clic\_en\_cualquier\_punto.png)
+![](.gitbook/assets/clic_en_cualquier_punto.png)
 
-Una vez dentro del elemento habrá ciertos campos que no son editables pero el resto de contenido y configuración sí puedes modificarlos. Podrás guardar y publicar los cambios o guardarlos y comenzar un [test](como-hacer-un-test.md).
+Uma vez dentro do elemento, haverá certos campos que não podem ser editados, mas o conteúdo restante e a configuração podem ser modificados. Pode salvar e publicar as mudanças ou salvá-las e iniciar um [teste](como-hacer-un-test.md).
