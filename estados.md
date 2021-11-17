@@ -1,41 +1,38 @@
 # Estados
 
-Es importante que conozcas los estados en los que se pueden encontrar las listas y los entrypoints.
+É importante que você conheça os estados em que podem ser encontrados as listas e os entrypoints.
 
 ### Entrypoints
 
-**DRAFT**. Estado en el que está un entrypoint cuando lo creas por primera vez y guardas los cambios antes de publicar.
+**DRAFT**. Estado em que um entrypoint está quando você o cria pela primeira vez e salva suas mudanças antes da publicação.
 
-**PUBLISHED**. Estado publicado. El usuario verá el entrypoint siempre que esté configurado para una audiencia que le aplique al usuario y dentro de una lista que también esté publicada.&#x20;
+**PUBLISHED**. Etado publicado. O usuário verá o entrypoint sempre que seja configurado para um público que corresponda ao usuário e dentro de uma lista que também esteja publicada.
 
-{% hint style="warning" %}
-Recuerda que un entrypoint puede estar en diferentes listas y para que se vea tiene que estar publicado. Pero el el hecho de que el entrypoint esté en estado **PUBLISHED** no significa que se vaya a ver. Eso depende del estado en que esté la lista o las listas que lo contengan y las audiencias configuradas en esas listas.
-{% endhint %}
+{% hint style="warning" %} Lembre-se que um entrypoint pode estar em listas diferentes e, para que possa ser visualizado, ele deve ser publicado. Mas o fato de o entrypoint estar no estado **PUBLISHED** não significa que será visualizado. Isso depende do estado da(s) lista(s) que o contém e do público configurado nessas listas. {% endhint %}
 
-**PAUSED**. Estado no publicado. El entrypoint ha estado publicado en algún momento pero ya no lo está, no es visible por ningún usuario.
+**PAUSED**. Estado não publicado. O entrypoint foi publicado em algum momento, mas não é mais publicado, não é visível para nenhum usuário.
 
-**TEST**. El entrypoint tiene un test en curso.&#x20;
+**TEST**. O entrypoint possui um teste em andamento.
 
-:nerd: Para más información sobre cómo se comporta un test en un entrypoint consulta la sección [Test sobre un entrypoint](como-hacer-un-test.md#test-sobre-un-entrypoint).
+:nerd: Para obter mais informações sobre o comportamento de um teste em um entrypoint, consulte a seção [Teste sobre um entrypoint](como-hacer-un-test.md#test-sobre-un-entrypoint).
 
-Aquí tienes un pequeño esquema de cómo se puede transicionar de un estado a otro.
+Aqui está um breve esquema de como fazer a transição de um estado para outro.
 
-![Cómo transiciona un entrypoint de un estado a otro en función del estado de inicio ](.gitbook/assets/Estados\_entrypoint.png)
+![Cómo transiciona un entrypoint de un estado a otro en función del estado de inicio ](.gitbook/assets/Estados_entrypoint.png)
 
 ### Listas
 
-**DRAFT**. Estado en el que está una lista cuando lo creas por primera vez y guardar los cambios antes de publicar.
+**DRAFT**. Estado em que está uma lista quando você a cria pela primeira vez e salva suas mudanças antes da publicação.
 
-**PUBLISHED**. Estado publicado. El usuario verá la lista y por tanto los entrypoints que le correspondan según las audiencias configuradas.&#x20;
+**PUBLISHED**. Estado publicado. O usuário verá a lista e, portanto, os entrypoints que correspondam de acordo com os públicos configurados.
 
-**PAUSED**. Estado no publicado. La lista ha estado publicada en algún momento pero ya no lo está, no es visible para ningún usuario.
+**PAUSED**. Estado não publicado. A lista foi em algum momento publicada, mas não agora. Não é visível para nenhum usuário.
 
-**TEST**. La lista puede tener un test en curso. Este estado siempre se combina con:
+**TEST**. A lista pode ter um teste em andamento. Este estado é sempre combinado com:
 
-* **PAUSED + TEST**. En este caso, la lista está bajo un test y mientras está corriendo el test no lo ven los usuarios, solo los configurados para el Test.
-* **PUBLISHED + TEST**. En este caso, la lista está bajo un test pero continúa publicada para el resto de usuarios. Los usuarios del test verán la versión test de la lista y el resto de usuarios verán la lista tal y como estaba de inicio, en la versión publicada.
+- **PAUSED + TEST**. Neste caso, a lista está em teste e, enquanto o teste estiver em execução, não é visto pelos usuários, apenas por aqueles configurados para o Teste.
+- **PUBLISHED + TEST**. Neste caso, a lista está em teste, mas permanece publicada para o resto dos usuários. Os usuários do teste verão a versão de teste da lista e os demais usuários verão a lista como ela era originalmente, na versão publicada.
 
-Aquí tienes un pequeño esquema de cómo se puede transicionar de un estado a otro.
+Aqui está um breve esquema de como fazer a transição de um estado para outro.
 
-![Cómo transiciona una lista de un estado a otro en función del estado de inicio](.gitbook/assets/Estados\_listas.png)
-
+![Cómo transiciona una lista de un estado a otro en función del estado de inicio](.gitbook/assets/Estados_listas.png)
