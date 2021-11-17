@@ -1,28 +1,23 @@
-# Cómo crear una lista de entrypoints
+# <a>Como criar uma lista de entrypoints</a>
 
-## Crear lista
+## Criar lista
 
-Haz clic en el botón **Create list:**
+Clique no botão **Create list:**
 
 ![](../.gitbook/assets/image.png)
 
-Rellena los campos:
+Preencha os campos:
 
-**List name**. Nombre de la lista que estás creando. Este nombre es utilizado para crear el ID de manera automática y por eso solo admite números y letras, no caracteres especiales.
+**List name**. Nome da lista que você está criando. Este nome é usado para criar o ID automaticamente e, portanto, só permite números e letras, não caracteres especiais.
 
-{% hint style="info" %}
-Puedes cambiar el valor de este **List name** en cualquier momento (no así el del **List id**).
-{% endhint %}
+{% hint style="info" %} Você pode alterar o valor deste **List name** a qualquer momento (mas não o do **List id**). {% endhint %}
 
-**Select target page**. Selecciona la página destino en la que se mostrará la lista.
+**Select target page**. Selecione a página destino em que a lista será exibida.
 
-Se muestran todas las target page disponibles (no solo las de la Home)
+Todas as target page disponíveis são exibidas (não apenas as da página inicial)
 
-**List id**. Este campo se autorrellena en base al valor que indiques en el campo _List name_.\
-Puedes editarlo pero no es recomendable.
+**List id**. Este campo se preencherá automaticamente com base no valor inserido no campo *List name*.<br>É possível a sua edição, mas não é recomendável.
 
-{% hint style="warning" %}
-El **List id** solo puedes editarlo en el momento en el que estás creando el entry point pero no cuando ya esté creado. Asegúrate por tanto de que el **List id** responde a tus necesidades.
-{% endhint %}
+{% hint style="warning" %} O **List id** só pode ser editado quando você está criando o entry point, mas não quando ele já está criado. Portanto, certifique-se de que o **List id** responde a suas necessidades. {% endhint %}
 
-Haz clic en **Create entrypoint list** para guardar la lista y comenzar los pasos de configuración de esa lista.
+Clique em **Create entrypoint list** para salvar a lista e iniciar os passos de configuração dessa lista.
