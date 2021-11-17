@@ -83,7 +83,7 @@ Información relacionada con el tracking del entrypoint. Con la suma de estos ca
 
 **Action (optional)**. Acción asociada al entrypoint.
 
-**Labal (optional)**. Etiqueta que identifica al entrypoint.
+**Label (optional)**. Etiqueta que identifica al entrypoint.
 
 ![](.gitbook/assets/tracking\_data.png)
 
