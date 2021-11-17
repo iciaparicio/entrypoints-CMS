@@ -1,28 +1,26 @@
 ---
-description: Paso 4 de creación de una lista de entry points
+description: Passo 4 de criação de uma lista de entry points
 ---
 
-# Vista previa y validación
+# Vista prévia e validação
 
-En este último paso puedes visualizar cómo queda el contenido de la lista que estás creando.
+Neste último passo, você pode visualizar como fica o conteúdo da lista que está criando.
 
-La pantalla está dividida en dos partes:
+A tela é dividida em duas partes:
 
-* La parte de la izquierda úsala, de manera opcional, para filtrar la visualización en función de las audiencias a las que puede pertenecer un usuario. Sería algo así como simular casos de uso de un usuario. Qué puede ver y qué no en función de las audiencias que le apliquen.
-* La parte derecha te muestra qué verá el usuario en función de las audiencias que selecciones en la parte izquierda.
+- A parte esquerde pode ser opcionalmente usada para filtrar a tela, de acordo com o público ao qual o usuário pode pertencer. Seria algo como a simulação de casos de uso de um usuário. O que ele pode ver e o que não pode ver, dependendo do público que se aplica a ele.
+- A parte direita mostra o que o usuário verá com base no público que você selecionar no lado esquerdo.
 
-![](../.gitbook/assets/Paso4\_Preview\_Validate.png)
+![](../.gitbook/assets/Paso4_Preview_Validate.png)
 
-Usa la opción ![](../.gitbook/assets/Add\_use\_case.png) para añadir audiencias y moverla a la columna derecha. Esto te permite simular el caso de uso de un usuario que pertenezca a esa audiencia.
+Use a opção ![](../.gitbook/assets/Add_use_case.png) para adicionar públicos e mover para a coluna da direita. Isto permite simular o caso de uso de um usuário pertencente a esse público.
 
-Usa la opción ![](../.gitbook/assets/remove\_use\_case.png)para quitar una audiencia y por tanto no simular ese caso de uso.
+Use a opção ![](../.gitbook/assets/remove_use_case.png) para eliminar e público e, portanto, não simular esse caso de uso.
 
-En este último paso haz clic en Save and **Publish **para publicar la lista que acabas de configurar.
+Neste último passo, clique em <strong>Save and publish</strong> para publicar a lista que acabou de configurar.
 
-También puedes hacer clic en **Save** para guardar los cambios. En ese momento la lista pasa al estado **PAUSED** lo que te permite comenzar un test para poder ver cómo quedan los cambios antes de publicarlos e impactar a una masa amplia de usuarios.
+Você também pode clicar em Save para salvar as mudanças e deixar a lista no modo de rascunho, no estado DRAFT. Então, pode iniciar um teste para ver como estão as mudanças antes de publicá-las e o impacto em uma grande massa de usuários.
 
-**¿Quieres saber más sobre le proceso de Test?** 👇🏼
+**Quer saber mais sobre o processo de Teste?** 👇🏼
 
-{% content-ref url="../como-hacer-un-test.md" %}
-[como-hacer-un-test.md](../como-hacer-un-test.md)
-{% endcontent-ref %}
+[#como-testar-um-conteúdo-antes-de-publicá-lo](../como-hacer-un-test.md#como-probar-un-contenido-antes-de-publicarlo "mention")
