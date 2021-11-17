@@ -1,167 +1,146 @@
-# Cómo crear un entrypoint
+# Como criar um entrypoint
 
-## Antes de crear un nuevo entrypoint
+## Antes de criar um novo entrypoint
 
-Es importante que tengas en cuenta que un entrypoint tiene entidad propia, es decir, varias listas de entrypoints pueden contener ese entrypoint. La lógica que hay detrás de este CMS permite mostrar o no el entrypoint en función de la lista a la que pertenezca y de las audiencias para las que esté configurado.
+É importante que você tenha em mente que um entrypoint tem entidade própria, isto é, várias listas de entrypoints podem conter esse entrypoint. A lógica por trás deste CMS permite mostrar ou não o entrypoint em função da lista a que pertence e dos públicos para os quais foi configurado.
 
-### ¿Qué quiere decir esto exactamente?
+### O que isto quer dizer exatamente?
 
-Un usuario nunca verá un entrypoint que no le corresponda ver, siempre y cuando ese entrypoint esté correctamente configurado.&#x20;
+Um usuário nunca verá um entrypoint que não lhe corresponda, sempre que esse entrypoint esteja corretamente configurado.
 
-{% hint style="success" %}
-Ejemplo:
+{% hint style="success" %} Por exemplo:
 
-_Alice es una usuaria de un dispositivo Android. Alice nunca verá un entrypoint que esté configurado para verse por usuarios solo de iOS._
-{% endhint %}
+*Alice é usuária de um dispositivo Android. Alice nunca verá um entrypoint configurado para ser visto apenas por usuários de iOS.* {% endhint %}
 
-## Crear un entrypoint
+## Criar um entrypoint
 
-Antes de crear o editar un entrypoint asegúrate de estar en la [sección de creación de entrypoints](./#estoy-en-la-seccion-para-crear-o-editar-un-entrypoint).
+Antes de criar ou editar um entrypoint, verifique se está na [seção de criação de entrypoints](./#estoy-en-la-seccion-para-crear-o-editar-un-entrypoint).
 
-![Sección para crear entrypoints](.gitbook/assets/seccion\_entrypoints.png)
+![Seção para criar entrypoints](.gitbook/assets/seccion_entrypoints.png)
 
-Haz clic en el botón **Create entrypoint**.
+Clique no botão **Create entrypoint**.
 
-Para cada entrypoint rellena los siguientes campos:
+Para cada entrypoint, preencha os seguintes campos:
 
-![](.gitbook/assets/entrypoint\_creacion.png)
+![](.gitbook/assets/entrypoint_creacion.png)
 
-**Icon default.** Icono asociado al entrypoint, que se muestra cuando los entrypoints se muestran en modo lista. Haz clic en **Set **:outbox\_tray: para añadir un icono.\
-:low\_brightness: Es obligatorio.
+**Icon default.** Ícone vinculado ao entrypoint, que é exibido quando os entrypoints são apresentados em modo lista. Clique em **Set** :outbox_tray: para adicionar um ícone.<br> :low_brightness: É obrigatório.
 
-**Icon dark**. Versión para _dark mode_ del icono asociado al entrypoint. Haz clic en Haz clic en **Set **:outbox\_tray: para añadir un icono.\
-:low\_brightness: Es opcional. Si no lo incluyes entonces se usará la versión default también en _dark mode_.
+**Icon dark**. Versão para *dark mode* do ícone vinculado ao entrypoint. Clique em Clique em **Set** :outbox_tray: para adicionar um ícone.<br> :low_brightness: É opcional. Se você não incluir, então a versão default também será utilizada em *dark mode*.
 
-{% hint style="warning" %}
-Ten en cuenta que este campo de iconos solo se muestra si la OB lo requiere.&#x20;
+{% hint style="warning" %} Note que este campo de ícones só é exibido se requerido pela OB.
 
-* Si no ves este campo en el CMS es que los entrypoints no van acompañados de iconos en ningún caso.
-* Si por el contrario tienes este campo visible en el CMS entonces es obligatorio que añadas al menos el **Icon default**.
-{% endhint %}
+- Se este campo não é visto no CMS, quer dizer que em nenhum caso os entrypoints vão acompanhados por ícones.
+- Se pelo contrário, este campo estiver visível no CMS, então é obrigatório adicionar pelo menos o **Icon default**. {% endhint %}
 
-**Entrypoint internal name**. Indica un nombre que describa el entrypoint que estás creando para que luego te resulte más sencillo localizarlo. Este nombre no se muestra a los usuarios.\
-:low\_brightness: El nombre puede contener letras tanto mayúsculas como minúsculas, números y espacios pero no admite otros caracteres como guiones bajos, acentos u otros caracteres especiales.
+**Entrypoint internal name**. Insira um nome que descreva o entrypoint que você está criando, para que seja mais fácil sua posterior localização. Este nome não é exibido aos usuários.<br> :low_brightness: O nome pode conter letras tanto maiúsculas quanto minúsculas, números e espaços, mas não admite outros caracteres, como travessões baixos, acentos ou outros caracteres especiais.
 
-{% hint style="success" %}
-:nerd: Cuando indiques el nombre interno piensa de manera natural cómo lo nombrarías para que cualquiera que lo vea entienda qué representa ese entrypoint.&#x20;
+{% hint style="success" %} :nerd: Ao indicar o nome interno, pense de maneira natural como designar para que qualquer pessoa entenda o que representa esse entrypoint.
 
-_Ejemplo:_
+*Por exemplo:*
 
-__:thumbsup:_ Programar cita en tienda_\
-__:thumbsdown:_ ProgramarCitaTiendaV1_
-{% endhint %}
+ **:thumbsup:* Programar encontro na loja*<br> **:thumbsdown:* ProgramarEncontroLojaV1* {% endhint %}
 
-**Entrypoint display name**. Nombre del entrypoint que se ve en la app. Este nombre **sí **lo ve el usuario.
+**Entrypoint display name**. Nome do entrypoint visto no app. Este nome **sim** é visto pelo usuário.
 
-**Entrypoint ID**. Se construye de manera automática en base al Entrypoint internal name pero puedes modificarlo si lo necesitas.
+**Entrypoint ID**. É construído de maneira automática com base no Entrypoint internal name, mas você pode fazer alterações em caso necessário.
 
-![](.gitbook/assets/crear\_entrypoint\_ID\_automatico.gif)
+![](.gitbook/assets/crear_entrypoint_ID_automatico.gif)
 
 #### **Carousel images**
 
-Despliega esta sección para añadir las imágenes del entrypoint que estás creando. Son las imágenes que se muestran cuando la lista se configura para mostrarse en modo carrusel.\
-:low\_brightness: Estas imágenes no son obligatorias y solo se muestran si en la lista estás configurando el modo de vista Carrusel. Si no incluyes imágenes entonces se verá una imagen con el color base de la OB.
+Abra esta seção para adicionar as imagens do entrypoint que está criando. São as imagens exibidas quando a lista é configurada para ser exibida no modo carrusel.<br> :low_brightness: Estas imagens não são obrigatórias e apenas são exibidas se na lista você está configurando o modo de vista Carrusel. Se não incluir imagens, então uma imagem com a cor base da OB será exibida.
 
-Tienes la opción de incluir dos imágenes:
+Você tem a opção de incluir duas imagens:
 
-* Hac clic en **Set image **:outbox\_tray: para añadir la imagen que se mostrará en el carrusel por defecto.&#x20;
-* Haz clic en **Set dark imagen **:outbox\_tray: para añadir la imagen que se mostrará en el carrousel en modo noche o _dark mode_.\
-  :low\_brightness: Si no la incluyes entonces se mostrará la imagen que incluyas para el modo por defecto.
+- Clique em <strong>Set image</strong>: outbox_tray: para adicionar a imagem que será exibida no carrusel de maneira predeterminada.
+- Clique em <strong>Set dark imagen</strong> :outbox_tray: para adicionar a imagem que será exibida no carrousel no modo noite ou *dark mode*.<br> :low_brightness: Se você não a incluir, então, a imagem incluída para o modo predeterminado será exibida.
 
-![](.gitbook/assets/carousel\_images.png)
+![](.gitbook/assets/carousel_images.png)
 
-{% hint style="info" %}
-:nerd: Recuerda que la imagen requerida es la de **Set imagen**, a la izquierda. Si solo incluyes la Dark image entonces te pedirá incluir también la Imagen Default.
-{% endhint %}
+{% hint style="info" %} :nerd: Observe que a imagem requerida é a **Set imagen**, à esquerda. Se você incluir só a Dark image, então também solicitará a inclusão da Imagen Default. {% endhint %}
 
 #### **Tracking data**
 
-Información relacionada con el tracking del entrypoint. Con la suma de estos campos se compone la URL de tracking del entry point.\
-:low\_brightness: Todos los campos son opcionales
+Informações relacionadas com o tracking do entrypoint. Com o total destes campos é composta a URL de tracking do entry point.<br> :low_brightness: Todos os campos são opcionais
 
-**Category (optional)**. Categoría del entrypoint.
+**Category (optional)**. Categoria do entrypoint.
 
-**Action (optional)**. Acción asociada al entrypoint.
+**Action (optional)**. Ação associada ao entrypoint.
 
-**Labal (optional)**. Etiqueta que identifica al entrypoint.
+**Label (optional)**. Etiqueta que identifica o entrypoint.
 
-![](.gitbook/assets/tracking\_data.png)
+![](.gitbook/assets/tracking_data.png)
 
 ### Create your first URL
 
-Configura esta sección para indicar a qué URL lleva el entrypoint cuando el usuario haga clic.
+Configure esta seção para indicar a que URL direciona o entrypoint quando o usuário clica.
 
-**Add URL**. Selecciona una de las opciones:
+**Add URL**. Selecione uma das opções:
 
-* **Preconfigured**. Selecciona esta opción para seleccionar una URL fija, ya preconfigurada. Haz clic en Preconfigured URL data para seleccionar una URL de las disponibles. Cuando lo hagas, puedes consultar (aunque no editar) la **URL** y el provider, que se muestra en el campo **For**.&#x20;
-* **Custom**. Selecciona esta opción para añadir una URL a mano.
+- **Preconfigured**. Selecione esta opção para escolher uma URL fixa, previamente configurada. Clique em Preconfigured URL data para selecionar uma URL das disponíveis. Uma vez feito isso, pode consultar (mas não editar) o **URL** e o provider, que é exibido no campo **For**.
+- **Custom**. Selecione esta opção para adicionar uma URL à mão.
 
-![Ejemplo de Preconfigured URL y de Custom URL](.gitbook/assets/AddURL\_Entrypoints.png)
+![Ejemplo de Preconfigured URL y de Custom URL](.gitbook/assets/AddURL_Entrypoints.png)
 
-Haz clic de nuevo en el desplegable Add URL (optional) y selecciona  para añadir URLs en función de las audiencias.
+Clique outra vez no menu suspenso Add URL (opcional) e selecione  para adicionar URLs em função dos públicos.
 
-#### Orden de las URLs
+#### Ordem das URLs
 
-Si añades más de una URL ten en cuenta que el orden en que aparezcan es importante. Es posible que las audiencias sean exclusivas, es decir, que cada entrypoint vaya a una audiencia que no comparta usuarios a los que aplicaría. En ese caso, el orden no es importante.
+Se adicionar mais de uma URL, considere que a ordem de exibição é importante. É possível que os públicos sejam exclusivos, isto é, que cada entrypoint vá a uma audiência que não compartilha usuários a quem se aplicaria. Nesse caso, a ordem não é importante.
 
-Pero, ¿qué pasa si las URLs llevan audiencias no exclusivas? Es decir, hay usuarios que pueden cumplir las características de más de una audiencia al mismo tiempo. En este caso, el orden sí importa.&#x20;
+Mas o que acontece se as URLs direcionam públicos não exclusivos? Isto é, há usuários que podem preencher as características de mais de um público ao mesmo tempo. Neste caso, a ordem é importante.
 
-El sistema lo que hace es leer de arriba hacia abajo, es decir, mostrará al usuario la URL que primero encuentre buscando desde arriba.&#x20;
+O sistema lê de cima para baixo, isto é, mostrará ao usuário a URL que primeiro encontrar fazendo uma busca de cima.
 
-Una vez que configures todas las URLs podrás ordenarlas mediante _drag\&drop_.
+Uma vez configuradas todas as URLs, elas podem ser ordenadas por meio de *drag&amp;drop*.
 
-{% hint style="success" %}
-Ejemplo:
+{% hint style="success" %} Por exemplo:
 
-🥇Has configurado una URL para la audiencia `los-amantes-del-deporte`. Esta URL lleva a una promo sobre unos nuevos canales de deporte.
+🥇Você configurou uma URL para o público `os-fãs-do-esporte`. Esta URL leva a uma promoção sobre novos canais de esporte.
 
-🏀Configuras una segunda URL para la audiencia `los-amantes-del-baloncesto`. En este caso la URL lleva a la promo de una serie de documentales sobre la NBA.
+🏀Configure uma segunda URL para o público `os-fãs-do-basquete`. Neste caso, a URL leva a uma promoção com uma série de documentários sobre a NBA.
 
-_Alice es una usuaria que adora el deporte y por la configuración de las audiencias esta usuaria está integrada dentro de la audiencia `los-amantes-del-deporte` y también en la audiencia `los-amantes-del-baloncesto.`_
+*Alice é uma usuária que adora esportes e, pela configuração dos públicos, esta usuária está integrada dentro do público `os-fãs-do-esporte` e também no público `os-fãs-do-basquete.`*
 
-¿Qué promo verá Alice? Pues depende del orden en el que coloques las URLs:
+Que promoção a Alice verá? Depende da ordem en que você colocar as URLs:
 
-Verá la promo de los canales de deporte si colocas las URLs así:
+Ela verá a promoção dos canais de esporte se você colocar as URLs da seguinte maneira:
 
-1. `los-amantes-del-deporte`
-2. `los-amantes-del-baloncesto`
+1. `os-fãs-do-esporte`
+2. `os-fãs-do-basquete`
 
+Ela verá a promoção sobre os documentários da NBA se você colocar as URLs da seguinte maneira:
 
-
-Verá la promo sobre los documentales de la NBA si colocas las URLs así:
-
-1. `los-amantes-del-baloncesto`
-2. `los-amantes-del-deporte`
-
+1. `os-fãs-do-basquete`
+2. `os-fãs-do-esporte`
 
 {% endhint %}
 
-Tienes una URL configurada para la audiencia `los-amantes-del-deporte`
+Você tem uma URL configurada para o público `os-fãs-do-esporte`
 
-Tienes otra URL configurada para la audiencia `los-amantes-del-baloncesto`
+Você tem outra URL configurada para o público `os-fãs-do-basquete`
 
-Alice es una usuaria que adora el deporte y por la configuración de las audiencias esta usuaria está integrada dentro de la audiencia `los-amantes-del-deporte` y también en la audiencia `los-amantes-del-baloncesto.`
+Alice é uma usuária que adora esportes e, pela configuração dos públicos, esta usuária está integrada dentro do público `os-fãs-do-esporte` e também no público `os-fãs-do-basquete.`
 
-Se ha configurado una URL sobre un partido de baloncesto súper importante y otra URL sobre nuevos canales de deporte.
+Uma URL foi configurada sobre uma jogo de basquete muito importante e outra URL sobre novos canais de esporte.
 
-#### Cómo borrar una URL
+#### Como apagar uma URL
 
-Haz clic en ![](.gitbook/assets/icono\_borrar.png) para eliminar una URL configurada.
+Clique em ![](.gitbook/assets/icono_borrar.png) para eliminar uma URL configurada.
 
-Haz clic en el botón **Save and publish** para publicar los cambios.&#x20;
+Clique no botão **Save and publish** para publicar as alterações.
 
-Haz clic en el botón **Save draft** para guardar los cambios sin publicarlos. Podrás publicarlos en otro momento, si lo necesitas.
+Clique no botão **Save draft** para salvar as mudanças sem publicá-las. Poderá publicá-las posteriormente, se for necessário.
 
-## Editar un entrypoint
+## Editar um entrypoint
 
-Haz clic en la fila del entrypoint que quieras editar. Se abre la ventana de creación/edición del entrypoint. Haz los cambios que necesites.
+Clique na linha do entrypoint que deseja editar. A janela de criação/edição do entrypoint é aberta. Faça as mudanças necessárias.
 
-{% hint style="warning" %}
-Recuerda que hay dos campos que no puedes editar: el **Internal name** y el **ID**
-{% endhint %}
+{% hint style="warning" %} Observe que há dois campos que não podem ser editados: **Internal name** e **ID** {% endhint %}
 
-Cuando hagas cambios podrás:
+Ao realizar mudanças você poderá:
 
-* Guardar los campos pero no publicarlos: clic en** Save and unpublish.**
-* Guardar los cambios y publicarlos: haz clic en **Save and publish**.
-* Iniciar un test: haz clic en **Save and test**
+- Salvar os campos, mas não publicá-los: clique em <strong>Save and unpublish</strong>.
+- Salvar as mudanças e publicá-las: clique em **Save and publish**.
+- Iniciar um teste: clique em **Save and test**.
