@@ -1,59 +1,55 @@
 ---
-description: Paso 3 de creación de una lista de entry points
+description: Passo 3 de criação de uma lista de entry points
 ---
 
-# Categorías y ordenación
+# <a>Categorias e ordem</a>
 
-Este **paso es opcional** y por tanto solo necesitarás es necesario únicamente si la lista que estás creando requiere algunas de las siguientes características:
+Este **passo é opcional** e, portanto, só é necessário se a lista que você está criando exigir algumas das seguintes características:
 
-* **Ordenar** de forma diferente los entry points **en función de las audiencias**, es decir, ordenar en función de los distintos tipos de usuario.
-* **Agrupar** los entry points **por Categorías**, es decir, si la lista de entry points tiene que aparecer** **dividida en categorías en la página de vista completa (la que aparece cuando el usuario hace clic en **"Otros servicios"**)&#x20;
+- **Ordenar** de forma diferente os entry points **em função dos públicos**, isto é, ordenar segundo os diferentes tipos de usuário.
+- **Agrupar** os entry points **em Categorias**, isto é, se a lista de entry points deve aparecer dividida em categorias na página de vista completa (que aparece quando o usuário clica em **"Outros serviços"**)
 
-Para hacer categorías u ordenaciones diferentes haz clic en **Add categories and custom sorting**.
+Para criar categorias ou ordens diferentes, clique em **Add categories and custom sorting**.
 
-Si la lista que estás creando no requiere nada de lo anterior omite este paso y haz clic en **Continue**.
+Se a lista que você está criando não requer nada do acima mencionado, pule este passo e clique em **Continue**.
 
-## Nueva personalización
+## Nova personalização
 
-{% hint style="warning" %}
-**IMPORTANTE**: Si creas varias personalizaciones entonces se seleccionará la primera personalización que coincida con la audiencia, según el orden en que has creado las personalizaciones (de arriba abajo). Si no hay ninguna que coincida entonces:
+{% hint style="warning" %} **IMPORTANTE**: Se você criar múltiplas personalizações, então a primeira personalização que corresponder ao público será selecionada, de acordo com a ordem na qual você criou as personalizações (de cima para baixo). Se não houver uma personalização correspondente, então:
 
-* Se usará la ordenación por defecto que se haya indicado en el paso 2 (**Services**)
-* Se genera una lista simple sin categorías
-{% endhint %}
+- Será utilizada a ordem predeterminada indicada no passo 2 (**Services**)
+- Uma lista simples, sem categorias, é gerada {% endhint %}
 
-Sigue estos pasos para configurar cada personalización:
+Siga estes passos para configurar cada personalização:
 
-1. Indica un nombre para tu personalización en el campo **New personalization **y haz clic en** Add personalization**.
-2. Selecciona la audiencia para esa personalización en el desplegable **Select your audience**.
-3. Ordena los entry points para esa audiencia
+1. Insira um nome para sua personalização no campo **New personalization **e clique em** Add personalization**.
+2. Selecione o público para essa personalização no menu suspenso **Select your audience**.
+3. Ordene os entry points para esse público
 
 ![](../.gitbook/assets/personalization.png)
 
-Cuando hayas creado las personalizaciones que necesites puedes ordenarlas simplemente con _Drag\&drop_. Recuerda que el usuario verá la primera personalización que le aplique según la audiencia.
+Uma vez criadas as personalizações necessárias, você pode simplesmente classificá-las com *Drag&amp;drop*. Lembre-se de que o usuário verá a primeira personalização que você aplicará, de acordo com o público.
 
-Para editar cualquiera de las personalizaciones selecciónala haciendo clic en el nombre y cambia la audiencia, las categorías y/o el orden de los entry points.
+Para editar quaisquer das personalizações, selecione-a clicando no nome e altere o público, as categorias e/ou a ordem dos entry points.
 
-Para borrar una personalización haz clic en el icono ![](../.gitbook/assets/icono\_borrar.png) en el nombre de la personalización.
+Para eliminar uma personalização, clique no ícone ![](../.gitbook/assets/icono_borrar.png) no nome da personalização.
 
-### Orden y categorías
+### Ordem e categorias
 
-Para poder dividir una lista por categorías es necesario que crees, al menos, una personalización. Si quieres que la lista se vea categorizada sin tener en cuenta la audiencia entonces, simplemente, crea la personalización ignorando el desplegable Audiences. En caso contrario indica la audiencia en el desplegable **Select your audience**.
+A fim de dividir uma lista em categorias, você precisa criar pelo menos uma personalização. Se você quiser que a lista seja categorizada sem levar em conta o público, basta criar a personalização, ignorando o menu suspenso Audiences. Em caso contrário, indique o público no menu suspenso **Select your audience**.
 
 #### Sorting and categories
 
-Añade el nombre de la primera categoría en el campo **New category name** y haz clic en **Add category**. Repite este paso tantas veces como categorías necesites.
+Adicione o nome da primeira categoria no campo **New category name** e clique em **Add category**. Repita este passo tantas vezes quantas categorias sejam necessárias.
 
-Como puedes comprobar las categorías se crear una bajo la siguiente. Para ordenar los entry points simplemente arrástralos, uno a uno, en el orden que consideres, bajo la categoría que corresponda:
+Como você pode ver, as categorias são criadas uma embaixo da próxima. Para classificar os entry points basta arrastá-los, um a um, na ordem que você considerar, sob a categoria correspondente:
 
-![Las categorías se pintan en otro color y además llevan el icono de eliminar 😉](../.gitbook/assets/categorias\_orden.gif)
+![As categorias são pintadas de uma cor diferente e também têm o ícone de eliminar 😉](../.gitbook/assets/categorias_orden.gif)
 
-Para borrar una categoría haz clic en ![](../.gitbook/assets/icono\_borrar.png) en el nombre de la categoría.
+Para apagar uma categoria, clique em ![](../.gitbook/assets/icono_borrar.png) no nome da categoria.
 
-Haz clic en **Continue** para continuar la configuración y pasar al paso siguiente.
+Clique em **Continue** para continuar a configuração e passar ao próximo passo.
 
-{% hint style="danger" %}
-**IMPORTANTE**: Ten en cuenta en todo el proceso de creación que el hecho de hacer clic en el botón **Continuar** no guarda los cambios.&#x20;
+{% hint style="danger" %} **IMPORTANTE**: Observe durante todo o processo de criação que clicar no botão **Continuar** não salva as mudanças.
 
-Si necesitas guardar los cambios en este paso haz clic en **Save draft** (en la parte superior derecha).
-{% endhint %}
+Se você precisa salvar as mudanças neste passo, clique em **Save draft** (na parte superior direita). {% endhint %}
