@@ -1,33 +1,31 @@
 ---
-description: Las dudas más frecuentes resueltas de manera sencilla
+description: As dúvidas mais frequentes respondidas de maneira simples
 ---
 
 # FAQ
 
-### Quiero modificar un copy de un entry point, ¿cómo lo hago?
+### Quero modificar um copy de um entrypoint. Como faço isso?
 
-Solo tienes que editarlo y guardar los cambios.
+Basta editar e salvar as mudanças.
 
-Desde la lista de entry points haz clic en la fila del entry point que quieres editar, en el icono ![](.gitbook/assets/icono\_menu\_secundario.png) y haz clic en la opción **Editar**.
+Na lista de entry points, clique na linha do entry point que você deseja editar, clique no ícone ![](.gitbook/assets/icono_menu_secundario.png) e clique na opção **Editar**.
 
-![](.gitbook/assets/edit\_menu\_secundario.png)
+![](.gitbook/assets/edit_menu_secundario.png)
 
-### He modificado un entry point que aparece en varias listas, ¿el cambio se verá en todas?
+### Modifiquei um entry point que aparece em várias listas. Será que a mudança será vista em todas elas?
 
-Sí, el cambio se verá en todas las listas que contengan ese entry point, siempre que ese elemento esté en una lista que sea visible por el usuario.
+Sim, a mudança será visualizada em todas as listas que contenham esse entry point, desde que esse item esteja em uma lista visível para o usuário.
 
-### Estoy creando una lista y pese a que relleno el campo "**Full list title"** no lo veo en la preview del paso 2 "**Services", ¿qué sucede?**
+### Estou criando uma lista e, embora eu preencha o campo "**Full list title"**, não vejo isso na visualização do passo 2 "**Services". O que acontece?**
 
-Esto se debe a que la preview del paso 2 muestra la lista tal y como la verá el usuario dentro de una página. Este título representa el nombre de la página que el usuario ve, por ejemplo, cuando esa lista tiene activada la opción **Show "See all" in the summary view** y el usuario hace clic en ese "Otros servicios".
+Isto porque a pré-visualização do passo 2 exibe a lista tal como o usuário a verá dentro de uma página. Este título representa o nome da página que o usuário vê, por exemplo, quando essa lista tem a opção ativada **Show "See all" in the summary view** e o usuário clica nesse "Outros serviços".
 
-Mira este sencillo ejemplo, seguro que te ayuda:
+Observe este simples exemplo que o ajudará:
 
-![](.gitbook/assets/full\_list\_title.gif)
+![](.gitbook/assets/full_list_title.gif)
 
-### ¿Puedo ver cómo verán los usuarios el contenido antes de publicarlo?
+### Posso ver como os usuários verão o conteúdo antes da publicação?
 
-Claro que puedes. De hecho es una muy buena práctica. Para ello necesitas crear un test. Consulta toda la información al respecto en la sección:
+É claro que você pode. Na verdade, é uma prática muito boa. Para fazer isso, é preciso criar um teste. Veja todas as informações ao respeito na seção:
 
-{% content-ref url="como-hacer-un-test.md" %}
-[como-hacer-un-test.md](como-hacer-un-test.md)
-{% endcontent-ref %}
+{% content-ref url="como-fazer-um-teste.md" %} [como-fazer-um-teste.md](como-hacer-un-test.md) {% endcontent-ref %}
