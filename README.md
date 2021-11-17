@@ -1,6 +1,6 @@
 # Entrypoint list CMS
 
-Accede al CMS de listas desde el menú lateral Entrypoint List.
+Accede al CMS de listas desde el menú lateral Entrypoint List
 
 ![](.gitbook/assets/entrypoint\_list\_menu\_lateral.png)
 
@@ -19,7 +19,7 @@ El CMS de listas, o entrypoint list CMS, tiene dos partes principales:
 
 Para unificar términos, es importante que sepas cómo se van a llamar los elementos principales a lo largo de esta guía:
 
-* **Entrypoint**: así es como vas a encontrar la referencia a servicios o a _entry points_ (del inglés).&#x20;
+* **Entrypoint**: así es como vas a encontrar la referencia a servicios o a _entry points_ (del inglés).
 * **Entrypoint lists CMS**. Así es como vas a encontrar la referencia al CMS de listas de servicios o de _entry point lists_.
 
 ### Cómo saber si...
