@@ -14,7 +14,7 @@ Podrás ver la información del entry point antes de confirmar: su nombre intern
 
 ### Cómo cambiar el orden de los entry points en la lista
 
-El orden en que se muestran en este paso los entry points es el mismo orden en el que se mostrarán al usuario. Si necesitas cambiar el orden usa la función _Drag\&Drop: _simplemente arrastra y suelta a la posición deseada.
+El orden en que se muestran en este paso los entry points es el mismo orden en el que se mostrarán al usuario. Si necesitas cambiar el orden usa la función _Drag\&Drop:_ simplemente arrastra y suelta a la posición deseada.
 
 ![](../.gitbook/assets/Drag\&Drop.gif)
 

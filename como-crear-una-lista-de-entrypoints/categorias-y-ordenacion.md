@@ -7,7 +7,7 @@ description: Paso 3 de creación de una lista de entry points
 Este **paso es opcional** y por tanto solo necesitarás es necesario únicamente si la lista que estás creando requiere algunas de las siguientes características:
 
 * **Ordenar** de forma diferente los entry points **en función de las audiencias**, es decir, ordenar en función de los distintos tipos de usuario.
-* **Agrupar** los entry points **por Categorías**, es decir, si la lista de entry points tiene que aparecer** **dividida en categorías en la página de vista completa (la que aparece cuando el usuario hace clic en **"Otros servicios"**)&#x20;
+* **Agrupar** los entry points **por Categorías**, es decir, si la lista de entry points tiene que aparecer **** dividida en categorías en la página de vista completa (la que aparece cuando el usuario hace clic en **"Otros servicios"**)&#x20;
 
 Para hacer categorías u ordenaciones diferentes haz clic en **Add categories and custom sorting**.
 
@@ -24,7 +24,7 @@ Si la lista que estás creando no requiere nada de lo anterior omite este paso y
 
 Sigue estos pasos para configurar cada personalización:
 
-1. Indica un nombre para tu personalización en el campo **New personalization **y haz clic en** Add personalization**.
+1. Indica un nombre para tu personalización en el campo **New personalization** y haz clic en **Add personalization**.
 2. Selecciona la audiencia para esa personalización en el desplegable **Select your audience**.
 3. Ordena los entry points para esa audiencia
 

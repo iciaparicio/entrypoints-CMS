@@ -17,7 +17,7 @@ Usa la opción ![](../.gitbook/assets/Add\_use\_case.png) para añadir audiencia
 
 Usa la opción ![](../.gitbook/assets/remove\_use\_case.png)para quitar una audiencia y por tanto no simular ese caso de uso.
 
-En este último paso haz clic en Save and **Publish **para publicar la lista que acabas de configurar.
+En este último paso haz clic en Save and **Publish** para publicar la lista que acabas de configurar.
 
 También puedes hacer clic en **Save** para guardar los cambios. En ese momento la lista pasa al estado **PAUSED** lo que te permite comenzar un test para poder ver cómo quedan los cambios antes de publicarlos e impactar a una masa amplia de usuarios.
 
